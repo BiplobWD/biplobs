@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+
+.headersection {
+  background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+
+}
+
+.logo {
+    width: 200px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 18px;
+    
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: #fff;
+}
+
+
+.bannercontent {}
+.bleft{
+    margin-top: 80px;
+ 
+}
+.bleft h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+.bleft h1::after {
+    content: '';
+    background: #fff;
+    width: 57px;
+    height: 4%;
+    position: absolute;
+    left: calc(10% - 10%);
+    bottom: 6px;
+}
+.bleft h3 {
+    color: #fff;
+    font-size: 30px;
+}
+.bleft p {
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 0;
+}
+.btn-light {
+    color: #fff;
+    background-color: #000;
+    border-color: #f8f9fa;
+    padding: 12px 29px;
+    border-radius: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.bright{}
+.bright img{
+    width: 500px;
+}
+.servicetitle {
+    margin-bottom: 3rem;
+   
+}
+.servicetitle h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+.servicesection {
+    padding: 100px 0;
+    background: linear-gradient(
+        45deg,
+        #000000,
+        #152331
+      );
+}
+.service {
+    text-align: center;
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    padding: 18px 5px;
+    border-radius: 32px;
+    margin: 1rem;
+}
+.service h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 0;
+}
+.service img{}
+
+
+/* Portfolio section */
+.portfoliosection {
+    background: url(memphis-mini.png);
+}
+.portfolititle {
+    padding: 5rem 0 0 0;
+}
+.portfolititle h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.wordpresssite {
+    padding: 70px 0;
+}
+.wordpress {
+    font-family: 'Lobster Two', cursive;
+    border-bottom: 1px solid #9999;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.wpsite {
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    padding: 50px 0;
+    border-radius: 24px;
+    box-shadow: 5px 6px 17px #999;
+    margin: 0.5rem;
+    display: inline-block;
+}
+.wpsite img {
+    width: 300px;
+    margin-bottom: 33px;
+}
+.wpsite a {
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wpsite a:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+
+
+.clientssection {
+    padding: 5rem 0;
+    background: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+}
+.clients{}
+.clienttitle{}
+.clienttitle h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.w-100 {
+    width: 50%!important;
+    margin-left: 25%;
+}
+
+.contactsection {
+    padding: 6rem 0;
+    background: url(memphis-mini.png);
+}
+.contitle{}
+.contitle h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+.contact {
+    background: linear-gradient(45.34deg, rgb(234, 82, 248) 5.66%, rgb(0, 102, 255) 94.35%);
+    padding: 3rem 0px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 1rem;
+}
+.contact i {
+    font-size: 2.5rem;
+}
+.contact p {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.contact a {
+    display: block;
+    font-size: 20px;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.footersection {
+    padding: 1rem 0;
+    background: #000;
+    color: #fff;
+}
+.footersection p {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
